@@ -1,10 +1,10 @@
-/* Default fonts */
+/* Default Fonts */
 
 body, td, th, input, textarea, option, select {
     font-size: 16px;
 }
 
-/* Specific styles */
+/* Specific Styles */
 
 nav {
     overflow: hidden;
@@ -15,8 +15,7 @@ nav {
     z-index: 20;    
 }
 
-/* Generic CoadeAdam styles */
-
+/* Generic Styles */
 .ca-adjust-nav {
     margin-top: 100px;
 }
@@ -24,11 +23,9 @@ nav {
     margin: 0 auto;
     max-width: 600px;
 }
-
 .ca-border-bottom-gray {
     border-bottom: 3px solid #ddd;
 }
-
 .ca-hr {
     text-align: center;
     margin: 40px auto;
@@ -37,6 +34,8 @@ nav {
     border: none;
     background-color: #ddd;
 }
+
+/* Font Styles */
 .ca-lora {
     font-family: 'Lora', serif;
 }
@@ -50,18 +49,6 @@ nav {
 .ca-font-small-fixed {
     font-size: 75%;
 }
-.ca-font-small {
-    font-size: 1.8vmax;
-    line-height: 2.2vmax;
-}
-.ca-font-med {
-    font-size: 4vmax;
-    line-height: 4.2vmax;
-}
-.ca-font-large {
-    font-size: 5vmax;
-    line-height: 5vmax;
-}
 
 .ca-font-none,
 .ca-font-none:link,
@@ -71,6 +58,7 @@ nav {
     text-decoration: none;
 }
 
+/* Image Styles */
 .ca-image-icon {
     width: 30px;
     height: auto;
@@ -89,6 +77,14 @@ nav {
     text-decoration: none;
 }
 
+/* Banners banners */
+.ca-third {
+    position: relative;
+    width: 100vw;
+    height: 40vh;
+    z-index: 1;
+    margin: 0 0;
+}
 .ca-fullscreen {
     position: relative;
     width: 100vw;
@@ -96,27 +92,42 @@ nav {
     z-index: 1;
     margin: 0 0;
 }
-.ca-fullscreen-background {
+.ca-third-background,
+.ca-fullscreen-background,
+.ca-third-content,
+.ca-fullscreen-content { 
     position: absolute;
     width: 100%;
     height: 100%;
-    object-fit: cover;
     top: 0;
     left: 0;
     z-index: 1;
     margin: 0 0;
 }
-.ca-fullscreen-content {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    margin: 0 0;
+.ca-third-background,
+.ca-fullscreen-background {
+    object-fit: cover;
+}
+.ca-third-content,
+.ca-fullscreen-content { 
+    padding-top: 60px;
 }
 
-/* Overwrite W3.CSS styles */
+/* Font Styles */
+.ca-font-small {
+    font-size: 1.8vmax;
+    line-height: 2.2vmax;
+}
+.ca-font-med {
+    font-size: 4vmax;
+    line-height: 4.2vmax;
+}
+.ca-font-large {
+    font-size: 5vmax;
+    line-height: 5vmax;
+}
+
+/* Overwrite W3.CSS Styles */
 .w3-text-white,
 .w3-text-white:link,
 .w3-text-white:visited,
