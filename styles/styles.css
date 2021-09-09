@@ -1,3 +1,5 @@
+/* Default fonts */
+
 body, td, th, input, textarea, option, select {
     font-size: 16px;
 }
@@ -23,13 +25,7 @@ nav {
     max-width: 600px;
 }
 
-.ca-background-red {
-    background-color: #eb741d;
-}
-.ca-background-orange {
-    background-color: #eb741d;
-}
-.ca-border-bottom-grey {
+.ca-border-bottom-gray {
     border-bottom: 3px solid #ddd;
 }
 
@@ -73,41 +69,6 @@ nav {
 .ca-font-none:active,
 .ca-font-none:hover {
     text-decoration: none;
-}
-.ca-font-white,
-.ca-font-white:link,
-.ca-font-white:visited,
-.ca-font-white:active,
-.ca-font-white:hover {
-    color: #fff;
-}
-.ca-font-red,
-.ca-font-red:link,
-.ca-font-red:visited,
-.ca-font-red:active,
-.ca-font-red:hover {
-    color: #eb062c;
-}
-.ca-font-orange,
-.ca-font-orange:link,
-.ca-font-orange:visited,
-.ca-font-orange:active,
-.ca-font-orange:hover {
-    color: #eb741d;
-}
-.ca-font-grey,
-.ca-font-grey:link,
-.ca-font-grey:visited,
-.ca-font-grey:active,
-.ca-font-grey:hover {
-    color: #ddd;
-}
-.ca-font-dark-grey,
-.ca-font-dark-grey:link,
-.ca-font-dark-grey:visited,
-.ca-font-dark-grey:active,
-.ca-font-dark-grey:hover {
-    color: #333;
 }
 
 .ca-image-icon {
@@ -153,4 +114,48 @@ nav {
     left: 0;
     z-index: 2;
     margin: 0 0;
+}
+
+/* Overwrite W3.CSS styles */
+.w3-text-white,
+.w3-text-white:link,
+.w3-text-white:visited,
+.w3-text-white:active,
+.w3-text-white:hover {
+    color: #fff;
+}
+.w3-text-red,
+.w3-text-red:link,
+.w3-text-red:visited,
+.w3-text-red:active,
+.w3-text-red:hover {
+    color: #eb062c!important;
+}
+.w3-text-orange,
+.w3-text-orange:link,
+.w3-text-orange:visited,
+.w3-text-orange:active,
+.w3-text-orange:hover {
+    color: #eb741d!important;
+}
+.w3-text-gray,
+.w3-text-gray:link,
+.w3-text-gray:visited,
+.w3-text-gray:active,
+.w3-text-gray:hover {
+    color: #ddd!important;
+}
+.w3-text-dark-gray,
+.w3-text-dark-gray:link,
+.w3-text-dark-gray:visited,
+.w3-text-dark-gray:active,
+.w3-text-dark-gray:hover {
+    color: #333!important;
+}
+
+.w3-red {
+    background-color: #eb062c!important;
+}
+.w3-orange {
+    background-color: #eb741d!important;
 }
