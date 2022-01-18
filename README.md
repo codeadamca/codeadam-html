@@ -2,6 +2,8 @@
 
 This repository stores the plain HTML version of codeadam.ca. The pages include samples of each different layout style using HTML, CSS, and w3.css. 
 
+The website is visible in it's current state at [https://codeadam.ca](https://codeadam.ca).
+
 ## Requirements:
 
 * [Visual Studio Code](https://code.visualstudio.com/) or [Brackets](http://brackets.io/) (or any code editor)
