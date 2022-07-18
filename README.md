@@ -1,8 +1,10 @@
-# codeadam-html
+# Vanilla HTML Verion of codeadam.ca
 
 This repository stores the plain HTML version of codeadam.ca. The pages include samples of each different layout style using HTML, CSS, and w3.css. 
 
 The website is visible in it's current state at [https://codeadam.ca](https://codeadam.ca).
+
+![codeadam.ca](https://raw.githubusercontent.com/codeadamca/codeadam-html/main/screenshot-codeadam.png)
 
 ## Requirements:
 
