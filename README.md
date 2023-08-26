@@ -4,7 +4,7 @@ This repository stores the plain HTML version of [codeadam.ca](https://codeadam.
 
 ![codeadam.ca](_readme/screenshot-codeadam.png)
 
-> The website is available at:
+> The website is available at:  
 > https://codeadam.ca
 
 ---
