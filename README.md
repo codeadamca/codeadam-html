@@ -14,6 +14,7 @@ This repository stores the plain HTML version of [codeadam.ca](https://codeadam.
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [w3.css](https://www.w3schools.com/w3css/defaulT.asp)
 
+<br>
 <a href="https://codeadam.ca">
-<img src="https://codeadam.ca/images/code-block.png" width="100">
+<img src="https://cdn.codeadam.ca/images@1.0.0/codeadam-logo-coloured-horizontal.png" width="200">
 </a>
